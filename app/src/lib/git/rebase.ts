@@ -137,6 +137,7 @@ export enum RebaseResult {
    * state.
    */
   Aborted = 'Aborted',
+  UnknownError = 'UnknownError',
 }
 
 function parseRebaseResult(result: IGitResult): RebaseResult {
